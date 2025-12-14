@@ -61,7 +61,6 @@ const config: ForgeConfig = {
       authors: "DRIFT Team",
       description: "DRIFT - Study Schedule Manager",
     }),
-    new MakerZIP({}, ["darwin", "linux", "win32"]),
   ],
   publishers: [
     new PublisherGithub({
